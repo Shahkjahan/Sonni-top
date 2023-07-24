@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lobster', cursive;
+}
+body {
+  background-color: coral;
+  color: white;
+}
+header {
+padding: 15px 25px;
+font-size: 25px;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-bottom: 10px solid black;
+}
+.number {
+width: 200px;
+height: 200px;
+background-color: black;
+border-radius: 50px;
+font-size: 85px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+main {
+margin-top: 250px;
+display: flex;
+justify-content: space-around;
+}
+.guess {
+width: 250px;
+height: auto;
+font-size: 45px;
+padding: 15px;
+outline: none;
+border-radius: 20px;
+}
+.guess:hover {
+background-color: yellow;
+color: white;
+}
+.guess:focus {
+background-color: black;
+color: white;
+transition: all 0.3s;
+}
+.btn{
+width: 150px;
+height: auto;
+padding: 15px 25px;
+font-size: 25px;
+outline: none;
+color: cornflowerblue;
+background-color: aqua;
+border-radius: 15px;
+border: none;
+margin: 15%
+}
+.btn:hover{
+background-color: darkslateblue;
+color: white;
+transition: 0.5s easy;
+}
+.right{
+font-size: 30px;
+}
+.score {
+color: yellow;
+font-size: 35px;
+}
